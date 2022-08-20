@@ -1,0 +1,96 @@
+<!-- html for filmgrain research -->
+<!-- 07/20/22 -->
+<!-- Northwestern University-->
+
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <style>
+            /* body
+            {
+                background-image:url('pngPics/pic.png');
+	            background-color:#CAF9D6;
+            } */
+        </style>
+        <!-- 外部样式表 -->
+        <link rel="stylesheet" type="text/css" href="mystyle.css" id="css">
+        <meta charset = "utf-8" />
+        <title > DEMO_FilmGrain</title>
+    </head>
+
+    <body onload="main()">
+    <div class = "starting" id = "starting" style = "display: block;">
+        <h2 id="greetings">Demo Test</h2>
+    </div>
+
+    <div class="selector" id="selector" style="display:block">
+        <button type="button" id="selectorButton" onClick='selector()'>SELECTOR MODE OFF</button><br>
+    </div>
+    
+
+    <!-- starting page -->
+    <div class="testBody" id = "testBody"> 
+        
+        <!-- Name输入模块
+             在输入后应该消失 -->
+        <div class = "input_Name" id = "nameForm" style="display: inline-block;">
+            <h2 >Enter name to start</h2>
+            <input type = "text" id = "name" size = 10>
+            <button type="button" onClick='startTest()' style="display:inline-block">Submit</button><br>
+        </div>
+
+        <div class = "instruction" id = "istrct" style="display: inline-block;">
+            <h3 >What should I do?</h3>
+            <!-- <h4> "Which image you prefer? "</h4> -->
+            <h5> 
+                <li>Enter your name to start the test! </li>
+                <li>Choose the image you prefer from each pair by pressing '←' or '→'！</li>
+                <li>Press '↓' to see next pair, press '↑' return to last pair. </li>
+                <li>You can see the test process from top of pairs.</li>
+                <li>After finishing the test, please press 'END' button to end this.</li>
+            </h5>
+
+            <h6> * Not a tester? Press 'SELECTOR MODE' button to show each image's name and parameters. </h6>
+            
+        </div>
+
+      
+
+        <!-- Tips模块 -->
+        <div class="tips" id = "process" style = "display: none;"> </div>
+
+        <button id="dropB" type="button" onClick="dropThis()" style="display: none;"> Drop This Pair</button>
+                <!-- Left Image -->
+                <div class = "img_left">
+                    <div class="leftLabel" id="leftLabel" style="display: none;">
+
+                    </div>
+                        <img src = "" alt = "Press ↑ or ↓ to start" id="LeftPic" style="display: none;">
+                </div>
+                <!-- Right Image -->
+                <div class = "img_right">
+                    <div class="rightLabel" id="rightLabel" style="display: none;">
+                        
+                    </div>
+                        <img src = "" alt = "Press ↑ or ↓ to start"  id="RigntPic" style="display:none;">
+                </div>
+
+        <div class="endB" id="endButton" style="display: none">
+            <!-- <h4> Click 'END' to end the test.</h4> -->
+            <button type="button" onClick='end()' >END</button><BR> 
+        </div>
+
+     
+
+    </div>
+
+    
+
+        <script src="lib/webgl-utils.js"></script>
+        <script src="lib/webgl-debug.js"></script>
+        <script src="lib/cuon-utils.js"></script>
+        <script src="newJson.js"></script>
+        <script src="control.js"></script>
+        
+    </body>
+</html>
