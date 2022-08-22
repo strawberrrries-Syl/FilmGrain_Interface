@@ -966,6 +966,249 @@ var jsonPicsWoman = [
     // },
 ]
 
+var jsonPicsLion = [
+    
+    // 0 -- Original Image
+    {
+        "name": "pngPics/liongate720.png",
+    },
+
+    // 1 ~ 36 gblurred 0.6 
+
+    // r = 0.015
+    {
+        "name": "fgPics/nbl0.6_liongate720_r0.015_g0_f0.0_m100.png",
+    },
+    {
+        "name": "fgPics/nbl0.6_liongate720_r0.015_g0.1_f0.0_m100.png",
+    },
+    {
+        "name": "fgPics/nbl0.6_liongate720_r0.015_g0.2_f0.0_m100.png",
+    },
+    {
+        "name": "fgPics/nbl0.6_liongate720_r0.015_g0.3_f0.0_m100.png",
+    },
+    {
+        "name": "fgPics/nbl0.6_liongate720_r0.015_g0.4_f0.0_m100.png",
+    },
+    {
+        "name": "fgPics/nbl0.6_liongate720_r0.015_g0.5_f0.0_m100.png",
+    },
+    // r = 0.03
+    {
+        "name": "fgPics/nbl0.6_liongate720_r0.03_g0_f0.0_m100.png",
+    },
+    {
+        "name": "fgPics/nbl0.6_liongate720_r0.03_g0.1_f0.0_m100.png",
+    },
+    {
+        "name": "fgPics/nbl0.6_liongate720_r0.03_g0.2_f0.0_m100.png",
+    },
+    {
+        "name": "fgPics/nbl0.6_liongate720_r0.03_g0.3_f0.0_m100.png",
+    },
+    {
+        "name": "fgPics/nbl0.6_liongate720_r0.03_g0.4_f0.0_m100.png",
+    },
+    {
+        "name": "fgPics/nbl0.6_liongate720_r0.03_g0.5_f0.0_m100.png",
+    },
+    // r = 0.045
+    {
+        "name": "fgPics/nbl0.6_liongate720_r0.045_g0_f0.0_m100.png",
+    },
+    {
+        "name": "fgPics/nbl0.6_liongate720_r0.045_g0.1_f0.0_m100.png",
+    },
+    {
+        "name": "fgPics/nbl0.6_liongate720_r0.045_g0.2_f0.0_m100.png",
+    },
+    {
+        "name": "fgPics/nbl0.6_liongate720_r0.045_g0.3_f0.0_m100.png",
+    },
+    {
+        "name": "fgPics/nbl0.6_liongate720_r0.045_g0.4_f0.0_m100.png",
+    },
+    {
+        "name": "fgPics/nbl0.6_liongate720_r0.045_g0.5_f0.0_m100.png",
+    },
+    // r = 0.06
+    {
+        "name": "fgPics/nbl0.6_liongate720_r0.06_g0_f0.0_m100.png",
+    },
+    {
+        "name": "fgPics/nbl0.6_liongate720_r0.06_g0.1_f0.0_m100.png",
+    },
+    {
+        "name": "fgPics/nbl0.6_liongate720_r0.06_g0.2_f0.0_m100.png",
+    },
+    {
+        "name": "fgPics/nbl0.6_liongate720_r0.06_g0.3_f0.0_m100.png",
+    },
+    {
+        "name": "fgPics/nbl0.6_liongate720_r0.06_g0.4_f0.0_m100.png",
+    },
+    {
+        "name": "fgPics/nbl0.6_liongate720_r0.06_g0.5_f0.0_m100.png",
+    },
+    // r = 0.75
+    {
+        "name": "fgPics/nbl0.6_liongate720_r0.075_g0_f0.0_m100.png",
+    },
+    {
+        "name": "fgPics/nbl0.6_liongate720_r0.075_g0.1_f0.0_m100.png",
+    },
+    {
+        "name": "fgPics/nbl0.6_liongate720_r0.075_g0.2_f0.0_m100.png",
+    },
+    {
+        "name": "fgPics/nbl0.6_liongate720_r0.075_g0.3_f0.0_m100.png",
+    },
+    {
+        "name": "fgPics/nbl0.6_liongate720_r0.075_g0.4_f0.0_m100.png",
+    },
+    {
+        "name": "fgPics/nbl0.6_liongate720_r0.075_g0.5_f0.0_m100.png",
+    },
+    // r = 0.9
+    {
+        "name": "fgPics/nbl0.6_liongate720_r0.09_g0_f0.0_m100.png",
+    },
+    {
+        "name": "fgPics/nbl0.6_liongate720_r0.09_g0.1_f0.0_m100.png",
+    },
+    {
+        "name": "fgPics/nbl0.6_liongate720_r0.09_g0.2_f0.0_m100.png",
+    },
+    {
+        "name": "fgPics/nbl0.6_liongate720_r0.09_g0.3_f0.0_m100.png",
+    },
+    {
+        "name": "fgPics/nbl0.6_liongate720_r0.09_g0.4_f0.0_m100.png",
+    },
+    {
+        "name": "fgPics/nbl0.6_liongate720_r0.09_g0.5_f0.0_m100.png",
+    },
+
+    // 37 ~ 72 gblurred 0.9 
+
+    // r = 0.015
+    {
+        "name": "fgPics/nbl0.9_liongate720_r0.015_g0_f0.0_m100.png",
+    },
+    {
+        "name": "fgPics/nbl0.9_liongate720_r0.015_g0.1_f0.0_m100.png",
+    },
+    {
+        "name": "fgPics/nbl0.9_liongate720_r0.015_g0.2_f0.0_m100.png",
+    },
+    {
+        "name": "fgPics/nbl0.9_liongate720_r0.015_g0.3_f0.0_m100.png",
+    },
+    {
+        "name": "fgPics/nbl0.9_liongate720_r0.015_g0.4_f0.0_m100.png",
+    },
+    {
+        "name": "fgPics/nbl0.9_liongate720_r0.015_g0.5_f0.0_m100.png",
+    },
+    // r = 0.075
+    {
+        "name": "fgPics/nbl0.9_liongate720_r0.03_g0_f0.0_m100.png",
+    },
+    {
+        "name": "fgPics/nbl0.9_liongate720_r0.03_g0.1_f0.0_m100.png",
+    },
+    {
+        "name": "fgPics/nbl0.9_liongate720_r0.03_g0.2_f0.0_m100.png",
+    },
+    {
+        "name": "fgPics/nbl0.9_liongate720_r0.03_g0.3_f0.0_m100.png",
+    },
+    {
+        "name": "fgPics/nbl0.9_liongate720_r0.03_g0.4_f0.0_m100.png",
+    },
+    {
+        "name": "fgPics/nbl0.9_liongate720_r0.03_g0.5_f0.0_m100.png",
+    },
+    // r = 0.045
+    {
+        "name": "fgPics/nbl0.9_liongate720_r0.045_g0_f0.0_m100.png",
+    },
+    {
+        "name": "fgPics/nbl0.9_liongate720_r0.045_g0.1_f0.0_m100.png",
+    },
+    {
+        "name": "fgPics/nbl0.9_liongate720_r0.045_g0.2_f0.0_m100.png",
+    },
+    {
+        "name": "fgPics/nbl0.9_liongate720_r0.045_g0.3_f0.0_m100.png",
+    },
+    {
+        "name": "fgPics/nbl0.9_liongate720_r0.045_g0.4_f0.0_m100.png",
+    },
+    {
+        "name": "fgPics/nbl0.9_liongate720_r0.045_g0.5_f0.0_m100.png",
+    },
+    // r = 0.06
+    {
+        "name": "fgPics/nbl0.9_liongate720_r0.06_g0_f0.0_m100.png",
+    },
+    {
+        "name": "fgPics/nbl0.9_liongate720_r0.06_g0.1_f0.0_m100.png",
+    },
+    {
+        "name": "fgPics/nbl0.9_liongate720_r0.06_g0.2_f0.0_m100.png",
+    },
+    {
+        "name": "fgPics/nbl0.9_liongate720_r0.06_g0.3_f0.0_m100.png",
+    },
+    {
+        "name": "fgPics/nbl0.9_liongate720_r0.06_g0.4_f0.0_m100.png",
+    },
+    {
+        "name": "fgPics/nbl0.9_liongate720_r0.06_g0.5_f0.0_m100.png",
+    },
+    // r = 0.75
+    {
+        "name": "fgPics/nbl0.9_liongate720_r0.075_g0_f0.0_m100.png",
+    },
+    {
+        "name": "fgPics/nbl0.9_liongate720_r0.075_g0.1_f0.0_m100.png",
+    },
+    {
+        "name": "fgPics/nbl0.9_liongate720_r0.075_g0.2_f0.0_m100.png",
+    },
+    {
+        "name": "fgPics/nbl0.9_liongate720_r0.075_g0.3_f0.0_m100.png",
+    },
+    {
+        "name": "fgPics/nbl0.9_liongate720_r0.075_g0.4_f0.0_m100.png",
+    },
+    {
+        "name": "fgPics/nbl0.9_liongate720_r0.075_g0.5_f0.0_m100.png",
+    },
+    // r = 0.9
+    {
+        "name": "fgPics/nbl0.9_liongate720_r0.09_g0_f0.0_m100.png",
+    },
+    {
+        "name": "fgPics/nbl0.9_liongate720_r0.09_g0.1_f0.0_m100.png",
+    },
+    {
+        "name": "fgPics/nbl0.9_liongate720_r0.09_g0.2_f0.0_m100.png",
+    },
+    {
+        "name": "fgPics/nbl0.9_liongate720_r0.09_g0.3_f0.0_m100.png",
+    },
+    {
+        "name": "fgPics/nbl0.9_liongate720_r0.09_g0.4_f0.0_m100.png",
+    },
+    {
+        "name": "fgPics/nbl0.9_liongate720_r0.09_g0.5_f0.0_m100.png",
+    },
+]
+
+
 
 function getNData() {
     return jsonPicsNafplio;
@@ -978,6 +1221,9 @@ function getSData() {
 }
 function getWData() {
     return jsonPicsWoman;
+}
+function getLData() {
+    return jsonPicsLion;
 }
 
 function getAllJData() {
@@ -1036,7 +1282,7 @@ function selecterPart(json, offset) {
     return ans;
 }
 
-function selecterPartRandom(json, offset) {
+function selecterPartRandom(offset) {
     var ans = [];
 
     var oriNow = 0;

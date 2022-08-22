@@ -19,6 +19,7 @@ var jsonPicsN = getNData();
 var jsonPicsB = getBData();
 var jsonPicsS = getSData();
 var jsonPicsW = getWData();
+var jsonPicsL = getLData();
 
 const offSet = jsonPicsN.length;
 
@@ -27,6 +28,7 @@ var jsonPicddd = Array.prototype.concat.call(
     jsonPicsB,
     jsonPicsS,
     jsonPicsW,
+    jsonPicsL
 );
 
 var jsonPics = jsonPicddd;
@@ -35,9 +37,10 @@ var pairsArrayC = combination(jsonPicddd, offSet);
 var pairsArrayA = arrangement(jsonPicddd, offSet);
 
 
-var offsetArray = [jsonPicsN.length, jsonPicsN.length+jsonPicsB.length, jsonPicsN.length+jsonPicsB.length+jsonPicsS.length, jsonPics.length]
+var offsetArray = [jsonPicsN.length, jsonPicsN.length+jsonPicsB.length, jsonPicsN.length+jsonPicsB.length+jsonPicsS.length, 
+    jsonPicsN.length+jsonPicsB.length+jsonPicsS.length + jsonPicsW.length, jsonPics.length];
 // console.log(offsetArray);
-var pairsArrayS = selecterPartRandom(jsonPicddd, offsetArray);
+var pairsArrayS = selecterPartRandom(offsetArray);
 // console.log(pairsArrayS);
 
 var pairs = pairsArrayS;
@@ -61,7 +64,6 @@ function outPut() {
     {
         var pic1 = jsonPics[pairs[idxOut][0]];
         var pic2 = jsonPics[pairs[idxOut][1]];
-        // out = out + "CHOSE " + jsonPics[ans[idxOut]].name + "," + pic1.name + "," + pic2.name + "\n";
 
         var ctype = "NoAnswer";
 
@@ -74,7 +76,6 @@ function outPut() {
         }
         console.log(ans[idxOut]-1 + ", " + chose);
         var ctype = ans[idxOut] == 0 ? "NoAnswer" : (chose[0] == "pngPics" ? "Original": "FilmGrain");
-        // var ctype = chose[0] == "pngPics" ? "Original" : (chose[0] == "fgPics" ? "FilmGrain" : "NoAnswer"); 
 
         out = out + ctype + " " + pic1.name + "   " + pic2.name + "\n";
     }
